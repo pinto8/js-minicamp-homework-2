@@ -2,7 +2,11 @@
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
-  // if they are the same return either one
+  if (x>=y) {
+    return x;
+  } else {
+    return y;
+  }
 }
 
 function greeting(language) {
@@ -59,7 +63,7 @@ function getArrayLength(arr) {
 }
 
 function incrementByOne(arr) {
-  // arr is an array of integers  
+  // arr is an array of integers
   // increase each integer by one
   // return the array
 }
